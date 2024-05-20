@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHERZOD.AVIA.UZ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            /* overflow: hidden; */
+        }
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Havohavo">
+            <span>SHERZOD.AVIA.UZ</span>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-link"><a href="#xaridlar">Xaridlar</a></li>
+                <li class="nav-link"><a href="#aloqa">Aloqa xizmati</a></li>
+
+                <li class="nav-link"><a href="#lines">Yo'nalishlar</a></li>
+            </ul>
+        </nav>
+        <button class="login-btn">Kirish</button>
+    </header>
+    <main>
+        <div class="hero">
+            <!-- <video controls src="samolyot.mp4">samolyot</video> style="width: 100%; border-radius: 20px;">
+
+            <video autoplay muted loop>
+                <source src="samolyot.mp4" type="video/mp4">
+            </video> -->
+            <video autoplay muted loop class="video-background">
+                <source src="samolyot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        
+            <div class="content">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="hero-text">
+                <h1>O'zbekiston Havo yo'llari</h1>
+                <p>Dunyoni istalgan burchagini biz bilan sayohat qiling</p>
+
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="about-us">
+            <div class="image-container">
+                <img src="SAMO.jpg" alt="SAMO">
+            </div>
+            <div class="text-container">
+                <h2>SHERZOD.AVIA.UZ</h2>
+                <p>O'zbekistonning eng yuqori aviachipatalar sotuvchisi! Bizning maqsadimiz - sizni yorqin va
+                    qulay xizmat bilan ta'minlash!</p>
+                <p>Bizning kompaniyamizda har bir mijoz uchun eng yaxshi aviachiptalarni topishga yordam berishga
+                    intilamiz.</p>
+                <p>Sizga qulaylik va ishonch hissiyotini ta'minlash uchun harakat qilamiz. Biz bilan safar qiling, sizga
+                    qulay va arzon aviachiptalarni taqdim etamiz!</p>
+            </div>
+        </div>
+    </section>
+    <div id="lines">
+        <h1>Yo'nalishlar bilan tanishing</h1>
+        <div class="yonalish" style="width: 25%; float: left; padding: auto;">
+            <h4>
+                Yer yuzining sayqali Samarqand
+            </h4>
+            <a href="#">
+                <p>Samarqand-Farg'ona</p>
+            </a>
+            <a href="bron.html"><button class="selected-options login-btn">Tanlash</button></a>
+
+        </div>
+        <div class="yonalish" style="width: 25%; float: left; padding: auto;">
+            <h4>
+                Yer yuzining sayqali Samarqand
+            </h4>
+            <a href="#">
+                <p>Samarqand-Toshkent</p>
+            </a>
+            <a href="bron.html"><button class="selected-options login-btn">Tanlash</button></a>
+
+        </div>
+        <div class="yonalish" style="width: 25%; float: left; padding: auto;">
+            <h4>
+                Yer yuzining sayqali Samarqand
+            </h4>
+            <a href="#">
+                <p>Samarqand-Buxoro</p>
+            </a>
+          <a href="bron.html"><button class="selected-options login-btn">Tanlash</button></a>
+
+        </div>
+        <div class="yonalish" style="width: 25%; float: left; padding: auto;">
+            <h4>
+                Yer yuzining sayqali Samarqand
+            </h4>
+            <a href="#">
+                <p>Samarqand-Urganch</p>
+            </a>
+            <a href="bron.html"><button class="selected-options login-btn">Tanlash</button></a>
+        </div>
+    </div>
+    <hr width="100%">
+   
+        <div class="wrap">
+            <div style="margin-left: 7%; width: 31%; float: left;">
+                <h1>1000+</h1>
+                <p>Xursand mijozlar</p>
+            </div>
+            <div style="width: 31%; float: left; ">
+                <h1>500+</h1>
+                <p>Muvaffaqiyatli sotishlar </p>
+            </div>
+            <div style="width: 31%; float: left;">
+                <h1>24/7</h1>
+                <p>Xizmat</p>
+            </div>
+        </div>
+    
+    <hr>
+    <div class="wrap2">
+        <h1>Har qanday aviachipta uchun</h1>
+        <p>Eng yaxshi narxlarda aviachiptalar sotib oling. Sizni kutib qolamiz </p>
+        <button class="login-btn">Xarid qilish</button>
+        <button class="login-btn">Ko'proq malumot</button>
+    </div>
+
+    <div class="form-container">
+        <h1>Biz bilan bog'laning</h1>
+        <form>
+            <div class="wrappers">
+                <input type="text" placeholder="Ismingiz..." required>
+                <input type="email" placeholder="Emailingiz..." required>
+             
+            </div>
+            <textarea placeholder="Xabaringiz..." ></textarea>
+            <button type="submit">Yuborish</button>
+            
+        </form>
+    </div>
+    <div class="container">
+        
+            <hr>
+            <div class="container">
+                <h1 id="xaridlar">Xaridlar</h1>
+                <div class="pricing-table">
+                    <div class="pricing-card">
+                        <h2>Bir kishilik</h2>
+                        <p class="price">250000</p>
+                        <p>Asosiy xizmatlar uchun mos variant</p>
+                        <button>Tanlash</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h2>Ona Bola</h2>
+                        <p class="price">320000</p>
+                        <p>Ona bola dam olishi uchun qo'shimcha imkoniyatlar</p>
+                        <button>Tanlash</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h2>Beznes class</h2>
+                        <p class="price">500000</p>
+                        <p>Yuqori sifat va xizmatlar uchun eng yaxshi tanlov</p>
+                        <button>Tanlash</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h2>OILA 3 KISHILIK </h2>
+                        <p class="price">400000</p>
+                        <p>Oila farzandlariz uyin kulgusi dam olishi uchun yetralicha sharoit</p>
+                        <button>Tanlash</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h1 id="aloqa">Aloqa ma'lumotlari</h1>
+        <div class="contact-info">
+            <div class="info-box">
+                <h2>Telefon</h2>
+                <p>+998 952285996</p>
+            </div>
+            <div class="info-box">
+                <h2>Email</h2>
+                <p>informatics@gmail.com</p>
+            </div>
+            <div class="info-box">
+                <h2>Manzil</h2>
+                <p>Samarqand shahar</p>
+            </div>
+            <div class="info-box">
+                <h2>Ish vaqtlar</h2>
+                <p>Dushanba - Shanba, 9:00 - 18:00</p>
+            </div>
+        </div>
+    </div>
+ 
+
+    <script src="main.js"></script>
+</body>
+
+</html>
